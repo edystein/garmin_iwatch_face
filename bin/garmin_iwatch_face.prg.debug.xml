@@ -33,35 +33,39 @@
         <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="87" pc="268436284" symbol="onUpdate"/>
         <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="88" pc="268436308" symbol="onUpdate"/>
         <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="91" pc="268436331" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="92" pc="268436362" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="94" pc="268436380" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="95" pc="268436411" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="100" pc="268436429" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="102" pc="268436449" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="103" pc="268436472" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="104" pc="268436472" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="105" pc="268436506" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="106" pc="268436540" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="107" pc="268436566" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="108" pc="268436599" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="109" pc="268436625" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="111" pc="268436658" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="114" pc="268436716" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="115" pc="268436743" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="119" pc="268436773" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="120" pc="268436790" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="121" pc="268436801" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="128" pc="268436894" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="133" pc="268436984" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="146" pc="268437072" symbol="onHide"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="15" lineNum="150" pc="268437077" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="16" lineNum="154" pc="268437082" symbol="onEnterSleep"/>
-        <entry filename="Rez" id="22" lineNum="20" pc="268437087" symbol="WatchFace"/>
-        <entry filename="Rez" id="22" lineNum="22" pc="268437099" symbol="WatchFace"/>
-        <entry filename="Rez" id="22" lineNum="23" pc="268437232" symbol="WatchFace"/>
-        <entry filename="Rez" id="22" lineNum="24" pc="268437358" symbol="WatchFace"/>
-        <entry filename="Rez" id="22" lineNum="25" pc="268437491" symbol="WatchFace"/>
-        <entry filename="Rez" id="22" lineNum="27" pc="268437624" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="94" pc="268436362" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="95" pc="268436393" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="96" pc="268436400" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="97" pc="268436424" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="103" pc="268436454" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="105" pc="268436474" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="106" pc="268436497" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="107" pc="268436497" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="108" pc="268436531" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="109" pc="268436565" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="110" pc="268436591" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="111" pc="268436624" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="112" pc="268436650" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="114" pc="268436683" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="117" pc="268436741" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="118" pc="268436768" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="122" pc="268436798" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="123" pc="268436815" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="124" pc="268436826" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="131" pc="268436919" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="136" pc="268437009" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="149" pc="268437097" symbol="onHide"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="15" lineNum="153" pc="268437102" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="16" lineNum="157" pc="268437107" symbol="onEnterSleep"/>
+        <entry filename="Rez" id="22" lineNum="20" pc="268437112" symbol="WatchFace"/>
+        <entry filename="Rez" id="22" lineNum="22" pc="268437124" symbol="WatchFace"/>
+        <entry filename="Rez" id="22" lineNum="23" pc="268437137" symbol="WatchFace"/>
+        <entry filename="Rez" id="22" lineNum="25" pc="268437150" symbol="WatchFace"/>
+        <entry filename="Rez" id="22" lineNum="26" pc="268437289" symbol="WatchFace"/>
+        <entry filename="Rez" id="22" lineNum="27" pc="268437421" symbol="WatchFace"/>
+        <entry filename="Rez" id="22" lineNum="28" pc="268437560" symbol="WatchFace"/>
+        <entry filename="Rez" id="22" lineNum="29" pc="268437699" symbol="WatchFace"/>
+        <entry filename="Rez" id="22" lineNum="31" pc="268437838" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388644" module="true" symbol="System"/>
@@ -118,24 +122,28 @@
         <entry endPc="268435650" name="today" stackId="1" startPc="268435543"/>
         <entry endPc="268435650" name="dateString" stackId="2" startPc="268435543"/>
         <entry endPc="268436002" name="dc" stackId="1" startPc="268435674"/>
-        <entry endPc="268436688" name="x" stackId="9" startPc="268436472"/>
-        <entry endPc="268436688" name="y" stackId="10" startPc="268436472"/>
-        <entry endPc="268436985" name="battery" stackId="8" startPc="268436011"/>
-        <entry endPc="268436985" name="mySettings" stackId="12" startPc="268436011"/>
-        <entry endPc="268436985" name="moveBar" stackId="7" startPc="268436011"/>
-        <entry endPc="268436985" name="view" stackId="4" startPc="268436011"/>
-        <entry endPc="268436985" name="steps" stackId="6" startPc="268436011"/>
-        <entry endPc="268436985" name="floorsClimbed" stackId="5" startPc="268436011"/>
-        <entry endPc="268436985" name="timeString" stackId="3" startPc="268436011"/>
-        <entry endPc="268436985" name="clockTime" stackId="2" startPc="268436011"/>
-        <entry endPc="268436986" name="dc" stackId="1" startPc="268436007"/>
-        <entry endPc="268437071" name="battery" stackId="1" startPc="268436990"/>
-        <entry endPc="268437071" name="batteryDisplay" stackId="2" startPc="268436990"/>
-        <entry endPc="268437671" name="rez_cmp_local_text_TimeLabelMin" stackId="4" startPc="268437099"/>
-        <entry endPc="268437671" name="rez_cmp_local_text_TimeLabelHour" stackId="3" startPc="268437099"/>
-        <entry endPc="268437671" name="rez_cmp_local_text_Date" stackId="2" startPc="268437099"/>
-        <entry endPc="268437671" name="rez_cmp_local_text_FloorsClimbedNum" stackId="5" startPc="268437099"/>
-        <entry endPc="268437672" name="dc" stackId="1" startPc="268437087"/>
+        <entry endPc="268436713" name="x" stackId="10" startPc="268436497"/>
+        <entry endPc="268436713" name="y" stackId="11" startPc="268436497"/>
+        <entry endPc="268437010" name="timeString" stackId="3" startPc="268436011"/>
+        <entry endPc="268437010" name="mySettings" stackId="13" startPc="268436011"/>
+        <entry endPc="268437010" name="moveString" stackId="8" startPc="268436011"/>
+        <entry endPc="268437010" name="moveBar" stackId="7" startPc="268436011"/>
+        <entry endPc="268437010" name="clockTime" stackId="2" startPc="268436011"/>
+        <entry endPc="268437010" name="battery" stackId="9" startPc="268436011"/>
+        <entry endPc="268437010" name="steps" stackId="6" startPc="268436011"/>
+        <entry endPc="268437010" name="view" stackId="4" startPc="268436011"/>
+        <entry endPc="268437010" name="floorsClimbed" stackId="5" startPc="268436011"/>
+        <entry endPc="268437011" name="dc" stackId="1" startPc="268436007"/>
+        <entry endPc="268437096" name="battery" stackId="1" startPc="268437015"/>
+        <entry endPc="268437096" name="batteryDisplay" stackId="2" startPc="268437015"/>
+        <entry endPc="268437895" name="rez_cmp_local_text_TimeLabelMin" stackId="6" startPc="268437124"/>
+        <entry endPc="268437895" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268437124"/>
+        <entry endPc="268437895" name="rez_cmp_local_text_TimeLabelHour" stackId="5" startPc="268437124"/>
+        <entry endPc="268437895" name="rez_cmp_local_text_Date" stackId="4" startPc="268437124"/>
+        <entry endPc="268437895" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268437124"/>
+        <entry endPc="268437895" name="rez_cmp_local_text_moveAlert" stackId="8" startPc="268437124"/>
+        <entry endPc="268437895" name="rez_cmp_local_text_FloorsClimbedNum" stackId="7" startPc="268437124"/>
+        <entry endPc="268437896" name="dc" stackId="1" startPc="268437112"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>

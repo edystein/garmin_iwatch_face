@@ -89,10 +89,13 @@ class garmin_iwatch_faceView extends WatchUi.WatchFace {
         
 		// Move bar
 		var steps = Toybox.ActivityMonitor.getInfo().steps;
-		System.println( steps);        
+//		System.println( steps);        
         
 		var moveBar = Toybox.ActivityMonitor.getInfo().moveBarLevel ;
-		System.println( moveBar );        
+		var moveString = "MOVE!";
+        view = View.findDrawableById("moveAlert");
+        view.setText(moveString.substring(0, moveBar) );
+//		System.println( moveString.substring(0, moveBar) );        
 
 //		setBatteryDisplay();
 
