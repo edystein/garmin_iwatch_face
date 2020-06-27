@@ -3,6 +3,8 @@
     <bitmap id="BatteryLow" filename="battery_low_32px.png" />
     <bitmap id="BatteryMed" filename="battery_med_32px.png" />
     <bitmap id="BatteryHigh" filename="battery_high_32px.png" />
-    <bitmap id="FloorsClimbed" filename="stairs_32px.png"/>
     <bitmap id="Bluetooth" filename="bluetooth_24px.png"/>
+    <bitmap id="FloorsClimbed" filename="stairs_32px.png"/>
+    <bitmap id="Steps" filename="steps_32px.png"/>
+    <bitmap id="Calories" filename="cal_32px.png"/>
 </drawables>
