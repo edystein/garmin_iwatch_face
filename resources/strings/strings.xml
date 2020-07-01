@@ -1,3 +1,27 @@
 <strings>
     <string id="AppName">garmin_iwatch_face</string>
+    <string id="Yes">Yes</string>
+    <string id="No">No</string>
+    <string id="DisplaySeconds">Display seconds?</string>
+    <string id="TimeHourColor">Time color: hour</string>
+    <string id="TimeMinColor">Time color: min and sec</string>
+    <string id="MoveAlertColor">Move alert color</string>
+    
+
+<!-- Colors -->
+    <string id="COLOR_WHITE">White</string>
+    <string id="COLOR_LT_GRAY">Light gray</string>
+    <string id="COLOR_DK_GRAY">Dark gray</string>
+    <string id="COLOR_RED">Red</string>
+    <string id="COLOR_DK_RED">Dark red</string>
+    <string id="COLOR_ORANGE">Orange</string>
+    <string id="COLOR_YELLOW">Yellow</string>
+    <string id="COLOR_GREEN">Green</string>
+    <string id="COLOR_DK_GREEN">Dark green</string>
+    <string id="COLOR_BLUE">Blue</string>
+    <string id="COLOR_DK_BLUE">Dark Blue</string>
+    <string id="COLOR_PURPLE">Purple</string>
+    <string id="COLOR_PINK">Pink</string>
+	
+	
 </strings>

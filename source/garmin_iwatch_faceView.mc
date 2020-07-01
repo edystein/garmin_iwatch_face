@@ -1,3 +1,4 @@
+using Toybox.Application as App;
 using Toybox.WatchUi;
 using Toybox.Graphics;
 using Toybox.System;
@@ -6,7 +7,58 @@ using Toybox.System;
 using Toybox.Time;
 using Toybox.Time.Gregorian;
 
+// Global vars
 var UPDATE_INTERVAL_MIN = 1;
+//<device family="round-240x240" grouping="Watches/Wearables" id="fr935" name="Forerunner® 935" part_number="006-B2691-00">
+var dateX = 120;
+var dateY = 36;
+var timeHourX = 120;
+var timeHourY = 75;
+var colorHour = Graphics.COLOR_WHITE; 
+var timeMinX = 120;
+var timeMinY= 145;
+var timeSecX = 175;
+var timeSecY= 174;
+
+var dailyStatX = 208;
+var dailyStatY = 127;
+var moveAlertX = 120;
+var moveAlertY= 205;
+
+
+
+
+
+
+
+function drawStat(stat, dc, settings, bitmapIcons){
+	// draw floors climbed
+	if (stat.equals("floorsClimbed")){
+		dc.drawBitmap(settings["floors_climbed"]["x"] * dc.getWidth(), 
+			settings["floors_climbed"]["y"] * dc.getHeight(), 
+			bitmapIcons["floors_climbed"]
+			);
+	}
+	// draw steps
+	if (stat.equals("steps")){
+		dc.drawBitmap(settings["floors_climbed"]["x"] * dc.getWidth(), 
+			settings["floors_climbed"]["y"] * dc.getHeight(), 
+			bitmapIcons["steps"]
+			);
+	}
+	// caloreis
+	if (stat.equals("calories")){
+		dc.drawBitmap(settings["floors_climbed"]["x"] * dc.getWidth(), 
+			settings["floors_climbed"]["y"] * dc.getHeight(), 
+			bitmapIcons["calories"]
+			);
+	}
+}
+
+
+
+
+
 
 function getDate(){
 	var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
@@ -83,9 +135,8 @@ class garmin_iwatch_faceView extends WatchUi.WatchFace {
 		"batt_status"=> {"high"=> 70, "low"=> 30, "x"=> .43, "y"=> .05},
 		"floors_climbed" => {"x"=> .8, "y"=> .40},
 		"bluetooth" => {"x"=> .7, "y"=> .15},
-		 "daily_monitor" => [],
-		 "daily_monitor_options" => ["steps", "floors", "calories", "active_min"],
-		 "daily_monitor_currently_displayed" => {"indx" => 0, "last_update_min" => 0, "update_interval_min" => UPDATE_INTERVAL_MIN}
+		"daily_monitor" => [],
+		"daily_monitor_currently_displayed" => {"indx" => 0, "last_update_min" => 0, "update_interval_min" => UPDATE_INTERVAL_MIN}
 		};
     var myBitmap;
     var bitmapbBattStatus;
@@ -94,6 +145,62 @@ class garmin_iwatch_faceView extends WatchUi.WatchFace {
     function initialize() {
         WatchFace.initialize();
     }
+
+
+	function initDevice(settings){
+		// detect device
+		////////////////////////
+		var deviceSettings = System.getDeviceSettings();
+		var partNumber = deviceSettings.partNumber;
+		// device part numbers come from ${SDKROOT}/bin/devices.xml
+		var device = "---";
+		if ("006-B2691-00".equals(partNumber)) {
+			// <device family="round-240x240" grouping="Watches/Wearables" id="fr935" name="Forerunner® 935" part_number="006-B2691-00">
+			device = "fr935";
+		}
+		else if ("006-B3113-00".equals(partNumber) || "006-B3076-00".equals(partNumber)){
+			// <device family="round-240x240" grouping="Watches/Wearables" id="fr945" name="Forerunner® 945" part_number="006-B3113-00">
+			System.println("fr945 detected"); 
+			device = "fr945";
+			timeHourY = 55;
+			timeMinY= 125;
+			timeSecX= 180;
+			timeSecY= 172;
+			var view = View.findDrawableById("TimeLabelHour");
+			view.setLocation(timeHourX, timeHourY);
+			view = View.findDrawableById("TimeLabelMin");
+			view.setLocation(timeMinX, timeMinY);
+			view = View.findDrawableById("TimeLabelSec");
+			view.setLocation(timeSecX, timeSecY);
+			
+		} 
+		else if ("006-B2431-00".equals(partNumber)){
+			// <device family="semiround-215x180" grouping="Watches/Wearables" id="fr235" name="Forerunner® 235" part_number="006-B2431-00">
+			device = "fr235";
+		} 
+		else if ("006-B3076-00".equals(partNumber)){
+			// <device family="round-240x240" grouping="Watches/Wearables" id="fr245" name="Forerunner® 245" part_number="006-B3076-00">
+			device = "fr245";
+		} 
+	
+	
+		// init layout (by default 935)
+		////////////////////////////
+		
+		// init daily statistics
+		////////////////////////////
+		var lActivities = ["floorsClimbed", "steps", "calories"];
+		if ("fr935".equals(device) || "fr945".equals(device)){
+			settings["daily_monitor"] = ["floorsClimbed", "steps", "calories"];
+		} else{
+			settings["daily_monitor"] = ["steps", "calories"];
+		} 
+	
+		var clockTime = System.getClockTime();
+		settings["daily_monitor_currently_displayed"] = {"indx" => 0, "last_update_min" => clockTime.min, "update_interval_min" => UPDATE_INTERVAL_MIN};
+	}
+
+
 
     // Load your resources here
     function onLayout(dc) {
@@ -123,24 +230,51 @@ class garmin_iwatch_faceView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc) {
+//		System.println( "Hello Monkey C!" );
 //        // Get and show the current time
 //        var clockTime = System.getClockTime();
 //        var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
 //        var view = View.findDrawableById("TimeLabel");
 //        view.setText(timeString);
 
-//		System.println( "Hello Monkey C!" );
+		// init device
+		//////////////////////////
+		if (0 == settings["daily_monitor"].size()){
+			initDevice(settings);
+		}
+		
+
         // Get and show Hour
+		//////////////////////////
         var clockTime = System.getClockTime();
-
-
         var timeString = Lang.format("$1$", [clockTime.hour]);
+        
+
         var view = View.findDrawableById("TimeLabelHour");
         view.setText(timeString);
+        view.setColor(App.getApp().getProperty("TimeHourColor"));
+//        view.setY(timeHourY);
+
 
         timeString = Lang.format("$1$", [clockTime.min.format("%02d")]);
         view = View.findDrawableById("TimeLabelMin");
         view.setText(timeString);
+        view.setColor(App.getApp().getProperty("TimeMinColor"));
+
+		var secString = ""; 
+		if (1 == App.getApp().getProperty("DisplaySeconds")){
+			secString = Lang.format("$1$", [clockTime.sec.format("%02d")]);
+		}         
+        view = View.findDrawableById("TimeLabelSec");
+        view.setText(secString);
+        view.setColor(App.getApp().getProperty("TimeMinColor"));
+		
+//		var dispSeconds = App.getApp().getProperty("DisplaySeconds");
+//		System.println("dispSeconds : " + dispSeconds + ", dispSeconds  == 1: " + (dispSeconds  == 1));
+        
+        
+        
+        
 
 		// update date
 		//////////////////////////////////////////		
@@ -153,6 +287,7 @@ class garmin_iwatch_faceView extends WatchUi.WatchFace {
 		var moveString = "MOVE!";
         view = View.findDrawableById("moveAlert");
         view.setText(moveString.substring(0, moveBar) );
+        view.setColor(App.getApp().getProperty("MoveAlertColor"));
 //		System.println( moveString.substring(0, moveBar) );        
 
 
@@ -189,10 +324,6 @@ class garmin_iwatch_faceView extends WatchUi.WatchFace {
 
 		// daily monitor
 		///////////////////////////
-		if (0 == settings["daily_monitor"].size()){
-			settings["daily_monitor"] = dailyMonitorGetActivities(settings["daily_monitor_options"]);
-			settings["daily_monitor_currently_displayed"] = {"indx" => 0, "last_update_min" => clockTime.min, "update_interval_min" => UPDATE_INTERVAL_MIN};			
-		}
 		var time_stat_change = (settings["daily_monitor_currently_displayed"]["last_update_min"] +  settings["daily_monitor_currently_displayed"]["update_interval_min"]) % 60;
 		if (time_stat_change == clockTime.min){
 			settings["daily_monitor_currently_displayed"] = {
@@ -207,35 +338,33 @@ class garmin_iwatch_faceView extends WatchUi.WatchFace {
 //		System.println( "settings[daily_monitor]: " + settings["daily_monitor"] + ", settings[daily_monitor_currently_displayed][indx]: " + settings["daily_monitor_currently_displayed"]["indx"]);
 //		System.println( "Debug: " + settings["daily_monitor"][settings["daily_monitor_currently_displayed"]["indx"]]);
 		
+		
+		var deviceSettings = System.getDeviceSettings();
+		// device part numbers come from ${SDKROOT}/bin/devices.xml
+		var partNumber = deviceSettings.partNumber;
+//		// device part numbers come from ${SDKROOT}/bin/devices.xml
+//		var partNumber = deviceSettings.partNumber;
+//		if ("006-B2156-00".equals(partNumber)) {
+//		// fr630
+//		}
+//		else if ("006-B2431-00".equals(partNumber) ||
+//		"006-B2396-00".equals(partNumber) ||
+//		"006-B2397-00".equals(partNumber) ||
+//		"006-B2516-00".equals(partNumber)) {
+//		// fr235
+//		}
+//		// and so on
+
+		
 		var stat = settings["daily_monitor"][settings["daily_monitor_currently_displayed"]["indx"]];
         view = View.findDrawableById("DailyStat");
         view.setText(dailyStatGetText(stat));
+ 
+ 
 
 		// daily stat draw
 		///////////////////////////
-				
-		// draw floors climbed
-		if (stat.equals("floorsClimbed")){
-			dc.drawBitmap(settings["floors_climbed"]["x"] * dc.getWidth(), 
-				settings["floors_climbed"]["y"] * dc.getHeight(), 
-				bitmapIcons["floors_climbed"]
-				);
-		}
-		// draw steps
-		if (stat.equals("steps")){
-			dc.drawBitmap(settings["floors_climbed"]["x"] * dc.getWidth(), 
-				settings["floors_climbed"]["y"] * dc.getHeight(), 
-				bitmapIcons["steps"]
-				);
-		}
-		// caloreis
-		if (stat.equals("calories")){
-			dc.drawBitmap(settings["floors_climbed"]["x"] * dc.getWidth(), 
-				settings["floors_climbed"]["y"] * dc.getHeight(), 
-				bitmapIcons["calories"]
-				);
-		}
-
+		drawStat(stat, dc, settings, bitmapIcons);				
 
 		return;
     }
@@ -260,7 +389,6 @@ class garmin_iwatch_faceView extends WatchUi.WatchFace {
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
     }
-
 
 }
 

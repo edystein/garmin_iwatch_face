@@ -1,4 +1,5 @@
 using Toybox.Application;
+using Toybox.System;
 
 class garmin_iwatch_faceApp extends Application.AppBase {
 
@@ -18,5 +19,17 @@ class garmin_iwatch_faceApp extends Application.AppBase {
     function getInitialView() {
         return [ new garmin_iwatch_faceView() ];
     }
+
+	function onSettingsChanged() {
+		System.println("onSettingsChanged 1");
+//		var x = Application.getApp().getProperty("TimeHourColor");
+//		System.println("x: " + x);
+
+		var x = Application.getApp().getProperty("TimeHourColor");
+		System.println("x: " + x);
+
+
+		WatchUi.requestUpdate();
+	}
 
 }

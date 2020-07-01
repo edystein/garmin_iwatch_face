@@ -1,0 +1,9 @@
+<properties>
+    <property id="TimeHourColor" type="number">0x00AAFF</property>
+    <property id="TimeMinColor" type="number">0xFFFFFF</property>
+    <property id="MoveAlertColor" type="number">0xFF00FF</property>
+
+    
+    <property id="DisplaySeconds" type="number">0x00</property>
+   </properties>
+   

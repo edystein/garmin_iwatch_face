@@ -1,205 +1,303 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
     <pcToLineNum>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="3" lineNum="5" pc="268435456" symbol="initialize"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="3" lineNum="6" pc="268435460" symbol="initialize"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="4" lineNum="10" pc="268435479" symbol="onStart"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="5" lineNum="14" pc="268435484" symbol="onStop"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="6" lineNum="18" pc="268435489" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="6" lineNum="19" pc="268435493" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="7" lineNum="11" pc="268435531" symbol="getDate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="7" lineNum="12" pc="268435543" symbol="getDate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="7" lineNum="13" pc="268435587" symbol="getDate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="7" lineNum="20" pc="268435647" symbol="getDate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="24" pc="268435651" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="26" pc="268435663" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="27" pc="268435670" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="29" pc="268435678" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="30" pc="268435678" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="31" pc="268435709" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="33" pc="268435754" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="37" pc="268435793" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="38" pc="268435793" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="39" pc="268435824" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="41" pc="268435869" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="45" pc="268435908" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="46" pc="268435908" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="47" pc="268435939" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="49" pc="268435984" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="52" pc="268436023" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="53" pc="268436065" symbol="dailyMonitorGetActivities"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="57" pc="268436069" symbol="dailyStatGetText"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="58" pc="268436081" symbol="dailyStatGetText"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="60" pc="268436088" symbol="dailyStatGetText"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="61" pc="268436107" symbol="dailyStatGetText"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="65" pc="268436150" symbol="dailyStatGetText"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="66" pc="268436169" symbol="dailyStatGetText"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="67" pc="268436276" symbol="dailyStatGetText"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="71" pc="268436358" symbol="dailyStatGetText"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="72" pc="268436377" symbol="dailyStatGetText"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="76" pc="268436420" symbol="dailyStatGetText"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="11" lineNum="94" pc="268436424" symbol="initialize"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="11" lineNum="95" pc="268436428" symbol="initialize"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="99" pc="268436447" symbol="onLayout"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="101" pc="268436451" symbol="onLayout"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="102" pc="268436494" symbol="onLayout"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="108" pc="268436637" symbol="onLayout"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="12" lineNum="115" pc="268436823" symbol="onLayout"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="13" lineNum="121" pc="268436861" symbol="onShow"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="125" pc="268436866" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="134" pc="268436870" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="137" pc="268436887" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="138" pc="268436931" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="139" pc="268436955" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="141" pc="268436969" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="142" pc="268437027" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="143" pc="268437051" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="147" pc="268437065" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="148" pc="268437089" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="152" pc="268437112" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="153" pc="268437143" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="154" pc="268437150" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="155" pc="268437174" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="162" pc="268437204" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="164" pc="268437224" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="165" pc="268437247" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="166" pc="268437247" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="167" pc="268437281" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="168" pc="268437315" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="169" pc="268437341" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="170" pc="268437374" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="171" pc="268437400" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="173" pc="268437433" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="176" pc="268437491" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="177" pc="268437518" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="182" pc="268437548" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="183" pc="268437565" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="184" pc="268437576" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="192" pc="268437669" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="193" pc="268437701" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="194" pc="268437740" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="196" pc="268437808" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="197" pc="268437857" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="198" pc="268437871" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="210" pc="268437984" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="211" pc="268438021" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="212" pc="268438045" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="218" pc="268438070" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="219" pc="268438089" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="225" pc="268438182" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="226" pc="268438201" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="232" pc="268438294" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="233" pc="268438313" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="240" pc="268438406" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="16" lineNum="253" pc="268438494" symbol="onHide"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="257" pc="268438499" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="18" lineNum="261" pc="268438504" symbol="onEnterSleep"/>
-        <entry filename="Rez" id="24" lineNum="22" pc="268438509" symbol="WatchFace"/>
-        <entry filename="Rez" id="24" lineNum="24" pc="268438521" symbol="WatchFace"/>
-        <entry filename="Rez" id="24" lineNum="25" pc="268438654" symbol="WatchFace"/>
-        <entry filename="Rez" id="24" lineNum="26" pc="268438780" symbol="WatchFace"/>
-        <entry filename="Rez" id="24" lineNum="27" pc="268438913" symbol="WatchFace"/>
-        <entry filename="Rez" id="24" lineNum="28" pc="268439046" symbol="WatchFace"/>
-        <entry filename="Rez" id="24" lineNum="30" pc="268439179" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="3" lineNum="6" pc="268435456" symbol="initialize"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="3" lineNum="7" pc="268435460" symbol="initialize"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="4" lineNum="11" pc="268435479" symbol="onStart"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="5" lineNum="15" pc="268435484" symbol="onStop"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="6" lineNum="19" pc="268435489" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="6" lineNum="20" pc="268435493" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="7" lineNum="23" pc="268435531" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="7" lineNum="24" pc="268435535" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="7" lineNum="28" pc="268435556" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="7" lineNum="29" pc="268435587" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceApp.mc" id="7" lineNum="32" pc="268435611" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="34" pc="268435630" symbol="drawStat"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="36" pc="268435642" symbol="drawStat"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="37" pc="268435661" symbol="drawStat"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="43" pc="268435736" symbol="drawStat"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="44" pc="268435755" symbol="drawStat"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="50" pc="268435830" symbol="drawStat"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="8" lineNum="51" pc="268435849" symbol="drawStat"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="63" pc="268435925" symbol="getDate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="64" pc="268435937" symbol="getDate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="65" pc="268435981" symbol="getDate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="9" lineNum="72" pc="268436041" symbol="getDate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="76" pc="268436045" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="78" pc="268436057" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="79" pc="268436064" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="81" pc="268436072" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="82" pc="268436072" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="83" pc="268436103" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="85" pc="268436148" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="89" pc="268436187" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="90" pc="268436187" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="91" pc="268436218" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="93" pc="268436263" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="97" pc="268436302" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="98" pc="268436302" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="99" pc="268436333" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="101" pc="268436378" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="104" pc="268436417" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="10" lineNum="105" pc="268436459" symbol="dailyMonitorGetActivities"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="11" lineNum="109" pc="268436463" symbol="dailyStatGetText"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="11" lineNum="110" pc="268436475" symbol="dailyStatGetText"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="11" lineNum="112" pc="268436482" symbol="dailyStatGetText"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="11" lineNum="113" pc="268436501" symbol="dailyStatGetText"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="11" lineNum="117" pc="268436544" symbol="dailyStatGetText"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="11" lineNum="118" pc="268436563" symbol="dailyStatGetText"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="11" lineNum="119" pc="268436670" symbol="dailyStatGetText"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="11" lineNum="123" pc="268436752" symbol="dailyStatGetText"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="11" lineNum="124" pc="268436771" symbol="dailyStatGetText"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="11" lineNum="128" pc="268436814" symbol="dailyStatGetText"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="13" lineNum="145" pc="268436818" symbol="initialize"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="13" lineNum="146" pc="268436822" symbol="initialize"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="150" pc="268436841" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="153" pc="268436845" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="154" pc="268436862" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="156" pc="268436872" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="157" pc="268436879" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="159" pc="268436898" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="161" pc="268436908" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="163" pc="268436949" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="164" pc="268436970" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="165" pc="268436977" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="166" pc="268436990" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="167" pc="268437003" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="168" pc="268437016" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="169" pc="268437029" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="170" pc="268437053" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="171" pc="268437081" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="172" pc="268437105" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="173" pc="268437133" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="174" pc="268437157" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="177" pc="268437188" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="179" pc="268437207" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="181" pc="268437217" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="183" pc="268437236" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="192" pc="268437246" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="193" pc="268437293" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="194" pc="268437334" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="196" pc="268437390" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="199" pc="268437430" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="14" lineNum="200" pc="268437447" symbol="initDevice"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="15" lineNum="206" pc="268437507" symbol="onLayout"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="15" lineNum="208" pc="268437511" symbol="onLayout"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="15" lineNum="209" pc="268437554" symbol="onLayout"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="15" lineNum="215" pc="268437697" symbol="onLayout"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="15" lineNum="222" pc="268437883" symbol="onLayout"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="16" lineNum="228" pc="268437921" symbol="onShow"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="232" pc="268437926" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="242" pc="268437930" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="243" pc="268437962" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="249" pc="268437985" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="250" pc="268438002" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="253" pc="268438046" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="254" pc="268438070" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="255" pc="268438084" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="259" pc="268438125" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="260" pc="268438183" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="261" pc="268438207" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="262" pc="268438221" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="264" pc="268438262" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="265" pc="268438269" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="266" pc="268438307" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="268" pc="268438368" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="269" pc="268438392" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="270" pc="268438406" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="281" pc="268438447" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="282" pc="268438471" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="286" pc="268438494" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="287" pc="268438525" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="288" pc="268438532" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="289" pc="268438556" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="290" pc="268438586" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="297" pc="268438627" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="299" pc="268438647" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="300" pc="268438670" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="301" pc="268438670" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="302" pc="268438704" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="303" pc="268438738" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="304" pc="268438764" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="305" pc="268438797" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="306" pc="268438823" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="308" pc="268438856" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="311" pc="268438914" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="312" pc="268438941" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="317" pc="268438971" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="318" pc="268438988" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="319" pc="268438999" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="327" pc="268439092" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="328" pc="268439141" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="329" pc="268439155" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="342" pc="268439268" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="344" pc="268439285" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="359" pc="268439295" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="360" pc="268439332" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="361" pc="268439356" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="367" pc="268439381" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="17" lineNum="369" pc="268439413" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="19" lineNum="382" pc="268439501" symbol="onHide"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="20" lineNum="386" pc="268439506" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\USER\\eclipse-workspace\\garmin_iwatch_face\\source\\garmin_iwatch_faceView.mc" id="21" lineNum="390" pc="268439511" symbol="onEnterSleep"/>
+        <entry filename="Rez" id="27" lineNum="22" pc="268439516" symbol="WatchFace"/>
+        <entry filename="Rez" id="27" lineNum="24" pc="268439528" symbol="WatchFace"/>
+        <entry filename="Rez" id="27" lineNum="25" pc="268439667" symbol="WatchFace"/>
+        <entry filename="Rez" id="27" lineNum="26" pc="268439806" symbol="WatchFace"/>
+        <entry filename="Rez" id="27" lineNum="27" pc="268439945" symbol="WatchFace"/>
+        <entry filename="Rez" id="27" lineNum="28" pc="268440084" symbol="WatchFace"/>
+        <entry filename="Rez" id="27" lineNum="29" pc="268440223" symbol="WatchFace"/>
+        <entry filename="Rez" id="27" lineNum="31" pc="268440362" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
+        <entry field="true" id="8389168" symbol="COLOR_DK_BLUE"/>
         <entry id="8388644" module="true" symbol="System"/>
-        <entry id="11" method="true" symbol="getDate"/>
+        <entry field="true" id="8389170" symbol="COLOR_PINK"/>
+        <entry id="25" method="true" symbol="getDate"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389349" symbol="justification"/>
-        <entry field="true" id="18" symbol="BatteryMed"/>
+        <entry field="true" id="42" symbol="Yes"/>
+        <entry field="true" id="32" symbol="BatteryMed"/>
+        <entry field="true" id="8389165" symbol="COLOR_GREEN"/>
+        <entry field="true" id="8389166" symbol="COLOR_DK_GREEN"/>
+        <entry field="true" id="8389158" symbol="COLOR_LT_GRAY"/>
+        <entry field="true" id="21" symbol="dailyStatY"/>
+        <entry field="true" id="20" symbol="dailyStatX"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry id="8388645" module="true" symbol="Time"/>
+        <entry field="true" id="8389157" symbol="COLOR_WHITE"/>
+        <entry field="true" id="40" symbol="No"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="39" symbol="TimeMinColor"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry id="12" method="true" symbol="dailyMonitorGetActivities"/>
+        <entry field="true" id="8389169" symbol="COLOR_PURPLE"/>
+        <entry id="26" method="true" symbol="dailyMonitorGetActivities"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry id="30" method="true" symbol="&lt;globals/garmin_iwatch_faceView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry id="51" method="true" symbol="&lt;globals/garmin_iwatch_faceView/&lt;&gt;setBatteryDisplay&gt;"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
-        <entry field="true" id="17" symbol="BatteryLow"/>
-        <entry id="13" method="true" symbol="dailyStatGetText"/>
+        <entry field="true" id="31" symbol="BatteryLow"/>
+        <entry id="27" method="true" symbol="dailyStatGetText"/>
+        <entry field="true" id="12" symbol="dateY"/>
+        <entry field="true" id="11" symbol="dateX"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="25" symbol="AppName"/>
+        <entry field="true" id="44" symbol="AppName"/>
+        <entry field="true" id="15" symbol="colorHour"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389163" symbol="COLOR_ORANGE"/>
+        <entry field="true" id="43" symbol="TimeHourColor"/>
+        <entry field="true" id="8389164" symbol="COLOR_YELLOW"/>
         <entry id="9" object="true" symbol="garmin_iwatch_faceApp"/>
-        <entry field="true" id="24" symbol="LauncherIcon"/>
-        <entry field="true" id="23" symbol="Calories"/>
+        <entry field="true" id="38" symbol="LauncherIcon"/>
+        <entry field="true" id="37" symbol="Calories"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="41" symbol="MoveAlertColor"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="17" symbol="timeMinY"/>
+        <entry field="true" id="16" symbol="timeMinX"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="26" symbol="settings"/>
+        <entry field="true" id="46" symbol="settings"/>
         <entry field="true" id="10" symbol="UPDATE_INTERVAL_MIN"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="20" symbol="Bluetooth"/>
+        <entry field="true" id="34" symbol="Bluetooth"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
         <entry id="8389348" symbol="font"/>
-        <entry field="true" id="19" symbol="BatteryHigh"/>
+        <entry field="true" id="33" symbol="BatteryHigh"/>
+        <entry field="true" id="8389161" symbol="COLOR_RED"/>
         <entry id="8389347" symbol="color"/>
-        <entry field="true" id="27" symbol="myBitmap"/>
-        <entry field="true" id="29" symbol="bitmapIcons"/>
-        <entry id="15" module="true" symbol="Layouts"/>
+        <entry field="true" id="19" symbol="timeSecY"/>
+        <entry field="true" id="18" symbol="timeSecX"/>
+        <entry field="true" id="47" symbol="myBitmap"/>
+        <entry field="true" id="49" symbol="bitmapIcons"/>
+        <entry field="true" id="14" symbol="timeHourY"/>
+        <entry field="true" id="13" symbol="timeHourX"/>
+        <entry id="29" module="true" symbol="Layouts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="8389167" symbol="COLOR_BLUE"/>
+        <entry field="true" id="8389159" symbol="COLOR_DK_GRAY"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="8389162" symbol="COLOR_DK_RED"/>
         <entry field="true" id="8389063" symbol="identifier"/>
-        <entry id="14" object="true" symbol="garmin_iwatch_faceView"/>
-        <entry field="true" id="28" symbol="bitmapbBattStatus"/>
-        <entry id="16" module="true" symbol="Menus"/>
-        <entry field="true" id="22" symbol="Steps"/>
-        <entry field="true" id="21" symbol="FloorsClimbed"/>
+        <entry field="true" id="23" symbol="moveAlertY"/>
+        <entry field="true" id="22" symbol="moveAlertX"/>
+        <entry id="28" object="true" symbol="garmin_iwatch_faceView"/>
+        <entry id="24" method="true" symbol="drawStat"/>
+        <entry field="true" id="48" symbol="bitmapbBattStatus"/>
+        <entry id="30" module="true" symbol="Menus"/>
+        <entry field="true" id="45" symbol="DisplaySeconds"/>
+        <entry field="true" id="36" symbol="Steps"/>
+        <entry field="true" id="35" symbol="FloorsClimbed"/>
+        <entry id="50" method="true" symbol="initDevice"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
         <entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
         <entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
-        <entry endPc="268435650" name="today" stackId="1" startPc="268435543"/>
-        <entry endPc="268435650" name="dateString" stackId="2" startPc="268435543"/>
-        <entry endPc="268436068" name="lActivities" stackId="3" startPc="268435663"/>
-        <entry endPc="268436068" name="val" stackId="2" startPc="268435663"/>
-        <entry endPc="268436069" name="lAllActivities" stackId="1" startPc="268435651"/>
-        <entry endPc="268436423" name="stat_str" stackId="2" startPc="268436081"/>
-        <entry endPc="268436424" name="stat_type" stackId="1" startPc="268436069"/>
-        <entry endPc="268436861" name="dc" stackId="1" startPc="268436447"/>
-        <entry endPc="268437463" name="x" stackId="8" startPc="268437247"/>
-        <entry endPc="268437463" name="y" stackId="9" startPc="268437247"/>
-        <entry endPc="268438407" name="timeString" stackId="3" startPc="268436870"/>
-        <entry endPc="268438407" name="mySettings" stackId="11" startPc="268436870"/>
-        <entry endPc="268438407" name="moveString" stackId="6" startPc="268436870"/>
-        <entry endPc="268438407" name="moveBar" stackId="5" startPc="268436870"/>
-        <entry endPc="268438407" name="clockTime" stackId="2" startPc="268436870"/>
-        <entry endPc="268438407" name="stat" stackId="13" startPc="268436870"/>
-        <entry endPc="268438407" name="battery" stackId="7" startPc="268436870"/>
-        <entry endPc="268438407" name="time_stat_change" stackId="12" startPc="268436870"/>
-        <entry endPc="268438407" name="view" stackId="4" startPc="268436870"/>
-        <entry endPc="268438408" name="dc" stackId="1" startPc="268436866"/>
-        <entry endPc="268438493" name="battery" stackId="1" startPc="268438412"/>
-        <entry endPc="268438493" name="batteryDisplay" stackId="2" startPc="268438412"/>
-        <entry endPc="268439236" name="rez_cmp_local_text_TimeLabelMin" stackId="4" startPc="268438521"/>
-        <entry endPc="268439236" name="rez_cmp_local_text_TimeLabelHour" stackId="3" startPc="268438521"/>
-        <entry endPc="268439236" name="rez_cmp_local_text_Date" stackId="2" startPc="268438521"/>
-        <entry endPc="268439236" name="rez_cmp_local_text_DailyStat" stackId="5" startPc="268438521"/>
-        <entry endPc="268439236" name="rez_cmp_local_text_moveAlert" stackId="6" startPc="268438521"/>
-        <entry endPc="268439237" name="dc" stackId="1" startPc="268438509"/>
+        <entry endPc="268435629" name="x" stackId="1" startPc="268435535"/>
+        <entry endPc="268435925" name="dc" stackId="2" startPc="268435630"/>
+        <entry endPc="268435925" name="bitmapIcons" stackId="4" startPc="268435630"/>
+        <entry endPc="268435925" name="settings" stackId="3" startPc="268435630"/>
+        <entry endPc="268435925" name="stat" stackId="1" startPc="268435630"/>
+        <entry endPc="268436044" name="today" stackId="1" startPc="268435937"/>
+        <entry endPc="268436044" name="dateString" stackId="2" startPc="268435937"/>
+        <entry endPc="268436462" name="lActivities" stackId="3" startPc="268436057"/>
+        <entry endPc="268436462" name="val" stackId="2" startPc="268436057"/>
+        <entry endPc="268436463" name="lAllActivities" stackId="1" startPc="268436045"/>
+        <entry endPc="268436817" name="stat_str" stackId="2" startPc="268436475"/>
+        <entry endPc="268436818" name="stat_type" stackId="1" startPc="268436463"/>
+        <entry endPc="268437185" name="view" stackId="5" startPc="268436949"/>
+        <entry endPc="268437506" name="lActivities" stackId="6" startPc="268436845"/>
+        <entry endPc="268437506" name="deviceSettings" stackId="2" startPc="268436845"/>
+        <entry endPc="268437506" name="device" stackId="4" startPc="268436845"/>
+        <entry endPc="268437506" name="partNumber" stackId="3" startPc="268436845"/>
+        <entry endPc="268437506" name="clockTime" stackId="7" startPc="268436845"/>
+        <entry endPc="268437507" name="settings" stackId="1" startPc="268436841"/>
+        <entry endPc="268437921" name="dc" stackId="1" startPc="268437507"/>
+        <entry endPc="268438886" name="x" stackId="9" startPc="268438670"/>
+        <entry endPc="268438886" name="y" stackId="10" startPc="268438670"/>
+        <entry endPc="268439414" name="timeString" stackId="3" startPc="268437930"/>
+        <entry endPc="268439414" name="secString" stackId="5" startPc="268437930"/>
+        <entry endPc="268439414" name="mySettings" stackId="12" startPc="268437930"/>
+        <entry endPc="268439414" name="moveString" stackId="7" startPc="268437930"/>
+        <entry endPc="268439414" name="moveBar" stackId="6" startPc="268437930"/>
+        <entry endPc="268439414" name="deviceSettings" stackId="14" startPc="268437930"/>
+        <entry endPc="268439414" name="clockTime" stackId="2" startPc="268437930"/>
+        <entry endPc="268439414" name="stat" stackId="16" startPc="268437930"/>
+        <entry endPc="268439414" name="battery" stackId="8" startPc="268437930"/>
+        <entry endPc="268439414" name="time_stat_change" stackId="13" startPc="268437930"/>
+        <entry endPc="268439414" name="view" stackId="4" startPc="268437930"/>
+        <entry endPc="268439414" name="partNumber" stackId="15" startPc="268437930"/>
+        <entry endPc="268439415" name="dc" stackId="1" startPc="268437926"/>
+        <entry endPc="268439500" name="battery" stackId="1" startPc="268439419"/>
+        <entry endPc="268439500" name="batteryDisplay" stackId="2" startPc="268439419"/>
+        <entry endPc="268440429" name="rez_cmp_local_text_TimeLabelMin" stackId="4" startPc="268439528"/>
+        <entry endPc="268440429" name="rez_cmp_local_text_TimeLabelSec" stackId="5" startPc="268439528"/>
+        <entry endPc="268440429" name="rez_cmp_local_text_TimeLabelHour" stackId="3" startPc="268439528"/>
+        <entry endPc="268440429" name="rez_cmp_local_text_Date" stackId="2" startPc="268439528"/>
+        <entry endPc="268440429" name="rez_cmp_local_text_DailyStat" stackId="6" startPc="268439528"/>
+        <entry endPc="268440429" name="rez_cmp_local_text_moveAlert" stackId="7" startPc="268439528"/>
+        <entry endPc="268440430" name="dc" stackId="1" startPc="268439516"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>
         <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry offset="182" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry offset="261" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry offset="356" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry offset="387" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry offset="418" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry offset="457" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry offset="488" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry offset="527" parentId="globals" symbolId="garmin_iwatch_faceView" type="class"/>
-        <dataEntry offset="662" parentId="globals" symbolId="garmin_iwatch_faceApp" type="class"/>
+        <dataEntry offset="294" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="373" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="468" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="499" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="530" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="569" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="600" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="791" parentId="globals" symbolId="garmin_iwatch_faceView" type="class"/>
+        <dataEntry offset="934" parentId="globals" symbolId="garmin_iwatch_faceApp" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="initialize" parent="garmin_iwatch_faceApp">
@@ -216,6 +314,16 @@
         <functionEntry accessMode="public" name="getInitialView" parent="garmin_iwatch_faceApp">
             <documentation/>
         </functionEntry>
+        <functionEntry accessMode="public" name="onSettingsChanged" parent="garmin_iwatch_faceApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawStat">
+            <param id="stat"/>
+            <param id="dc"/>
+            <param id="settings"/>
+            <param id="bitmapIcons"/>
+            <documentation/>
+        </functionEntry>
         <functionEntry accessMode="public" name="getDate">
             <documentation/>
         </functionEntry>
@@ -228,6 +336,10 @@
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="garmin_iwatch_faceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initDevice" parent="garmin_iwatch_faceView">
+            <param id="settings"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onLayout" parent="garmin_iwatch_faceView">
