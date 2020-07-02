@@ -153,15 +153,29 @@ class garmin_iwatch_faceView extends WatchUi.WatchFace {
 		var deviceSettings = System.getDeviceSettings();
 		var partNumber = deviceSettings.partNumber;
 		// device part numbers come from ${SDKROOT}/bin/devices.xml
+
 		var device = "---";
 		if ("006-B2691-00".equals(partNumber)) {
 			// <device family="round-240x240" grouping="Watches/Wearables" id="fr935" name="Forerunner® 935" part_number="006-B2691-00">
 			device = "fr935";
-		}
-		else if ("006-B3113-00".equals(partNumber) || "006-B3076-00".equals(partNumber)){
+		} else if ("006-B3113-00".equals(partNumber)){
 			// <device family="round-240x240" grouping="Watches/Wearables" id="fr945" name="Forerunner® 945" part_number="006-B3113-00">
-			System.println("fr945 detected"); 
 			device = "fr945";
+		} else if ("006-B3076-00".equals(partNumber)){
+			// <device family="round-240x240" grouping="Watches/Wearables" id="fr245" name="Forerunner® 245" part_number="006-B3076-00">
+			device = "fr245";
+		} else if ("006-B2431-00".equals(partNumber)){
+			// <device family="semiround-215x180" grouping="Watches/Wearables" id="fr235" name="Forerunner® 235" part_number="006-B2431-00">
+			device = "fr235";
+		} 
+		System.println( "Device: " + device );
+		
+		
+		// set layout
+		////////////////////////////////
+		// fr935 is default
+				
+		if ("fr245".equals(device) || "fr945".equals(device)){
 			timeHourY = 55;
 			timeMinY= 125;
 			timeSecX= 180;
@@ -174,18 +188,27 @@ class garmin_iwatch_faceView extends WatchUi.WatchFace {
 			view.setLocation(timeSecX, timeSecY);
 			
 		} 
-		else if ("006-B2431-00".equals(partNumber)){
+		else if ("fr235".equals(device)){
 			// <device family="semiround-215x180" grouping="Watches/Wearables" id="fr235" name="Forerunner® 235" part_number="006-B2431-00">
-			device = "fr235";
-		} 
-		else if ("006-B3076-00".equals(partNumber)){
-			// <device family="round-240x240" grouping="Watches/Wearables" id="fr245" name="Forerunner® 245" part_number="006-B3076-00">
-			device = "fr245";
+			System.println( "!!!!!!!!!!!!!!!!!! Handle 235 layout !!!!!!!!!!!!!!!!!!");
+			timeHourX = 100;
+			timeHourY = 40;
+			timeMinX= 100;
+			timeMinY= 80;
+			timeSecX= 100;
+			timeSecY= 100;
+			var view = View.findDrawableById("TimeLabelHour");
+			view.setLocation(timeHourX, timeHourY);
+			view.setFont(Graphics.FONT_SYSTEM_NUMBER_THAI_HOT   );
+
+			view = View.findDrawableById("TimeLabelMin");
+			view.setLocation(timeMinX, timeMinY);
+			view.setFont(Graphics.FONT_SYSTEM_NUMBER_THAI_HOT   );
+
+			view = View.findDrawableById("TimeLabelSec");
+			view.setLocation(timeSecX, timeSecY);
 		} 
 	
-	
-		// init layout (by default 935)
-		////////////////////////////
 		
 		// init daily statistics
 		////////////////////////////
