@@ -20,7 +20,7 @@ var timeMinY= 145;
 var timeSecX = 175;
 var timeSecY= 174;
 
-var dailyStatX = 208;
+var dailyStatX = 200;
 var dailyStatY = 127;
 var moveAlertX = 120;
 var moveAlertY= 205;
@@ -110,13 +110,19 @@ function dailyStatGetText(stat_type){
 	var stat_str = "no stat";
 
 	if (stat_type.equals("floorsClimbed")){
-		stat_str = Toybox.ActivityMonitor.getInfo().floorsClimbed.toString();
+		stat_str = " " + Toybox.ActivityMonitor.getInfo().floorsClimbed.toString();
 //		System.println("floors " + stat_str); 
 	}
 	
 	if (stat_type.equals("steps")){
-		stat_str = (Toybox.ActivityMonitor.getInfo().steps / 1000.0).format("%.1f") + "/" + (Toybox.ActivityMonitor.getInfo().stepGoal / 1000.0).format("%.1f");
-		stat_str = Toybox.ActivityMonitor.getInfo().steps / 1000 + " / " + Toybox.ActivityMonitor.getInfo().stepGoal / 1000;
+		var steps = Toybox.ActivityMonitor.getInfo().steps;
+		if ((steps < 10000) && (steps > 0)){
+			stat_str = (Toybox.ActivityMonitor.getInfo().steps / 1000.0).format("%.1f") + "/" + (Toybox.ActivityMonitor.getInfo().stepGoal / 1000.0).format("%d");
+		} else {
+			stat_str = (Toybox.ActivityMonitor.getInfo().steps / 1000).format("%d") + "/" + (Toybox.ActivityMonitor.getInfo().stepGoal / 1000).format("%d");
+		}
+		
+//		stat_str = Toybox.ActivityMonitor.getInfo().steps / 1000 + " / " + Toybox.ActivityMonitor.getInfo().stepGoal / 1000;
 //		System.println("steps " + stat_str);
 	}
 
@@ -320,19 +326,32 @@ class garmin_iwatch_faceView extends WatchUi.WatchFace {
         View.onUpdate(dc);
 		// draw battery status
 		var battery = System.getSystemStats().battery;
-		try{
-			var x =  settings["batt_status"]["x"] * dc.getWidth();
-			var y =  settings["batt_status"]["y"] * dc.getHeight();
-			if (battery > settings["batt_status"]["high"]){
-				dc.drawBitmap(x, y, bitmapbBattStatus["high"]);
-			} else if (battery < settings["batt_status"]["low"]){
-				dc.drawBitmap(x, y, bitmapbBattStatus["low"]);
-			} else{
-				dc.drawBitmap(x, y, bitmapbBattStatus["med"]);
-			}        
-		} catch (e instanceof Lang.Exception) {
-		    System.println(e.getErrorMessage());
-		    System.println(battery);
+		var dispBatStatus = App.getApp().getProperty("AlwaysDisplayBatteryLevel");
+//		System.println( "dispBatStatus: " + dispBatStatus + ", (1 == dispBatStatus): " + (1 == dispBatStatus) );
+		if (battery < settings["batt_status"]["low"]){
+			dispBatStatus = 1;
+		}
+        view = View.findDrawableById("BatteryLevel");
+        view.setText("");
+		if (1 == dispBatStatus){
+			try{
+				var x =  settings["batt_status"]["x"] * dc.getWidth();
+				var y =  settings["batt_status"]["y"] * dc.getHeight();
+				if (battery > settings["batt_status"]["high"]){
+				// high
+					dc.drawBitmap(x, y, bitmapbBattStatus["high"]);
+				} else if (battery < settings["batt_status"]["low"]){
+				// low
+					dc.drawBitmap(x, y, bitmapbBattStatus["low"]);
+					view.setText(battery.format("%2d") + "%");
+				} else{
+				// med
+					dc.drawBitmap(x, y, bitmapbBattStatus["med"]);
+				}        
+			} catch (e instanceof Lang.Exception) {
+			    System.println(e.getErrorMessage());
+			    System.println(battery);
+			}
 		}
 
 		// draw bluetooth connection

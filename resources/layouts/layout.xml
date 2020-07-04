@@ -9,7 +9,7 @@
 	<label id="DailyStat" x="dailyStatX" y="dailyStatY" font="Graphics.FONT_SYSTEM_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     <label id="moveAlert" x="moveAlertX" y="moveAlertY" font="Graphics.FONT_SYSTEM_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     
-<!-- <label id="BatteryDisplay" x="50%" y="80%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" /> -->
+	<label id="BatteryLevel" x="155" y="12" font="Graphics.FONT_SYSTEM_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_RED" />
     
 </layout>
 

@@ -5,5 +5,7 @@
 
     
     <property id="DisplaySeconds" type="number">0x00</property>
+    <property id="AlwaysDisplayBatteryLevel" type="number">0x1</property>
+
    </properties>
    

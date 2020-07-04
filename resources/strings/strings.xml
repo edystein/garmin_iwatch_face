@@ -4,8 +4,12 @@
     <string id="No">No</string>
     <string id="DisplaySeconds">Display seconds?</string>
     <string id="TimeHourColor">Time color: hour</string>
-    <string id="TimeMinColor">Time color: min and sec</string>
+    <string id="TimeMinColor">Time color: minuntes and seconds</string>
     <string id="MoveAlertColor">Move alert color</string>
+
+<!-- Battery level -->
+    <string id="AlwaysDisplayBatteryLevel">Always display battery level?</string>
+    <string id="DisplayBatteryLevelOnlyWhenLow">Display battery level only when low</string>
     
 
 <!-- Colors -->

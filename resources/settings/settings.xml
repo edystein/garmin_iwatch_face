@@ -8,7 +8,6 @@
     </setting>
 
 
-
 <setting propertyKey="@Properties.TimeHourColor" title="@Strings.TimeHourColor">
         <settingConfig type="list">
             <listEntry value="0xFFFFFF">@Strings.COLOR_WHITE</listEntry>
@@ -26,6 +25,7 @@
             <listEntry value="0xFF00FF">@Strings.COLOR_PINK</listEntry>
         </settingConfig>
     </setting>
+
 
 <setting propertyKey="@Properties.TimeMinColor" title="@Strings.TimeMinColor">
         <settingConfig type="list">
@@ -61,6 +61,14 @@
             <listEntry value="0x0000FF">@Strings.COLOR_DK_BLUE</listEntry>
             <listEntry value="0xAA00FF">@Strings.COLOR_PURPLE</listEntry>
             <listEntry value="0xFF00FF">@Strings.COLOR_PINK</listEntry>
+        </settingConfig>
+    </setting>
+
+
+<setting propertyKey="@Properties.AlwaysDisplayBatteryLevel" title="@Strings.AlwaysDisplayBatteryLevel">
+        <settingConfig type="list">
+            <listEntry value="0x1">@Strings.Yes</listEntry>
+            <listEntry value="0x0">@Strings.DisplayBatteryLevelOnlyWhenLow</listEntry>
         </settingConfig>
     </setting>
 
